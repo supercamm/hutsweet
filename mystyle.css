@@ -1,0 +1,124 @@
+html {
+    background-color: #ffffff;
+    font-family: Avenir
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: row
+}
+
+.container-logo-item {
+    width: 18vw;
+    height: 15vh;
+    margin: 0 auto
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    width: 50vw;
+    background-color: #ff64aa;
+    margin: 0 auto
+}
+
+.container-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 92%
+}
+
+.container-card-item-top {
+    background-color: white;
+    height:45vh;
+    margin-top: 3%
+}
+
+.container-card-item-bottom {
+    background-color: #f7b3cb;
+    height:15vh
+}
+
+.container-card-item-text {
+    width: 75%
+}
+
+.container-card-text-small {
+    color: white;
+    font-size: 1.0vw
+}
+
+.container-card-text-medium {
+    font-size: 1.2vw
+}
+
+.container-card-text-big {
+    color: #3d131f;
+    font-size: 2.0vw;
+    display: block
+}
+
+.input-text {
+    color: #3d131f;
+    width: 20vw;
+    height: 3.5vh;
+    margin-bottom: 4%
+}
+
+.input-button {
+    background-color: #3d131f;
+    color: white;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 24px;
+    margin-top: 2%
+}
+
+.container-icon {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin-top: 15%
+}
+
+.container-icon-item {
+    background-color: #3d131f;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.container-icon-item-img {
+    height: 10vh;
+    width: 5vw
+}
+
+.container-icon-text {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin: 0 auto
+
+}
+
+.container-icon-text-item {
+    text-align: center;
+    color: white;
+    font-size: 1.0vw;
+    margin: 0 auto
+
+}
+
+.container-icon-text-item-span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto
+}
